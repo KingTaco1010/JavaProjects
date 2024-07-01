@@ -1,0 +1,27 @@
+VK_settings:
+  url: 'https://vk.com/moonstudio'
+  interval_check: 60 # On seconds.
+  connection_timeout: 10000 # To ms.
+
+SQLite_database:
+  nameTable: 'registrations'
+  connection_pool_size: 5
+  file_name: 'database.db'
+
+book_settings:
+  text_color: '&a'
+  text_max_symbols_in_line: 200
+  word_division: true
+
+messages:
+  prefix: 'MoonTest > '
+
+  no_permission: '&fУ вас нет столько прав, чтобы выполнить эту команду!'
+  not_loaded: '&fПодождите идёт загрузка текста с постов!'
+
+custom_command:
+  permission: '' # Пустой, то не требуется.
+  aliases:
+    - 'nw'
+
+  command_name: 'news' # Команда вызова.

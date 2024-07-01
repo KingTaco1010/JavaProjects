@@ -1,0 +1,4 @@
+name: MoonTest
+version: '${project.version}'
+main: org.moonstudio.moontest.Main
+api-version: '1.18'
